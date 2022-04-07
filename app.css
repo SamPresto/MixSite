@@ -1,0 +1,259 @@
+body {
+    background-color: #231e21;
+    font-family: 'Rubik', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    overflow-x: hidden;
+}
+nav {
+    color: whitesmoke;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 700;
+    font-size: 1.5em;
+}
+#logo {
+    width: 30px;
+}
+#logoText {
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.logoFull {
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 30px;
+}
+nav ul {
+    margin-top: 20px;
+    list-style-type: none;
+    display: flex;
+}
+nav ul a {
+    text-decoration: none;
+    color: whitesmoke;
+    text-decoration: none;
+    transition: all ease-in-out 250ms;
+    margin: 0px 10px 0px 10px;
+}
+nav ul a:link { 
+    text-decoration: none; 
+}
+nav ul a:visited { 
+    text-decoration: none; 
+}
+nav ul a:hover { 
+    text-decoration: none; 
+    color: #fd8235;
+}
+nav ul a:active { 
+    text-decoration: none; 
+}
+
+#head {
+    display: flex;
+    align-items: center;
+}
+.phone {
+    
+}
+#phoneView {
+    display: flex;
+    justify-content: center;
+    margin-top: 10vh;
+    /* margin-left: 5vw; */
+}
+#phoneView video {
+    height: 70vh;
+    background-color: black;
+    padding: 20px;
+    border-radius: 60px;
+    box-shadow: rgba(92, 92, 92, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
+
+}
+
+.extra {
+    margin-top: -9vh;
+    height: 10vh;
+    background-color: #3a3a3c;
+}
+
+.mainText {
+    color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+}
+.mainText h1 {
+    font-weight: 700;
+    font-size: 4.5em;
+    margin-bottom: 80px;
+}
+.getApp {
+    background-color: whitesmoke;
+    position: absolute;
+    border-radius: 30px;
+}
+
+
+
+.getApp a:link { 
+    text-decoration: none; 
+}
+.getApp a:visited { 
+    text-decoration: none; 
+}
+.getApp a p:hover { 
+    text-decoration: none; 
+    color: #fd8235;
+}
+.getApp a:active { 
+    text-decoration: none; 
+}
+
+.getApp p {
+    margin: 0;
+    padding: 10px 40px 10px 40px;
+    width: auto;
+    color: #231e21;
+    transition: all ease-in-out 250ms;
+}
+
+
+
+#topText {
+    padding-bottom: 10px;
+    border-bottom: 2px solid #505053;
+}
+.wholeScale {
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    margin-left: auto;
+    margin-right: auto;
+    padding-bottom: 40px;
+    margin-bottom: 5vh;
+    border-bottom: 2px solid #a1a1a8;
+}
+.content {
+    background-color: #3a3a3c;
+    color: whitesmoke;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    
+}
+#topOfContent {
+    margin-top: 5vh;
+    
+}
+.profile {
+    display: flex;
+    justify-content: space-between;
+}
+.postWidth {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+.pfp img {
+    width: 60px;
+    border-radius: 50%;
+    margin-right: 20px;
+}
+
+
+
+#followButton {
+    background-color: rgb(77, 75, 75);
+    color: whitesmoke;
+    border-radius: 20px;
+    text-decoration: none;
+    transition:all ease-in-out 250ms;
+    box-shadow: none;
+}
+#followButton p {
+    margin: 0;
+    padding: 5px 20px 5px 20px;
+}
+#followButton:hover {
+    box-shadow: rgba(155, 157, 158, 0.3) 0px 1px 2px 0px, rgba(179, 181, 184, 0.15) 0px 1px 3px 1px;
+}
+
+
+#followButton a:link { 
+    text-decoration: none; 
+}
+#followButton a:visited { 
+    text-decoration: none; 
+}
+#followButton a:active { 
+    text-decoration: none; 
+}
+
+
+
+
+
+.images {
+    display: flex;
+    margin-top: 10px;
+    justify-content: space-around;
+}
+.images img {
+    width: 33%;
+    border-radius: 10px;
+    padding: 0px 5px 0px 5px;
+}
+#oneSide {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.footer {
+    background-color: #3a3a3c;
+    height: 10vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.veryBottom {
+    color: whitesmoke;
+}
+
+@media screen and (max-width: 1500px) {
+    .mainText {
+        width: 80%;
+    }
+}
+@media screen and (max-width:1040px) {
+    .mainText h1 {
+        font-size: 3.5em;
+    }
+    .hugeText {
+        width: 100%;
+    }
+    #phoneView video {
+        height: 60vh;
+        padding: 15px;
+}
+@media screen and (max-width:800px) {
+    #phoneView video {
+        height: 50vh;
+    }
+    .mainText h1 {
+        font-size: 2.5em;
+    }
+}
+@media screen and (max-width:700px) {
+    #phoneView video {
+        height: 40vh;
+    }
+}

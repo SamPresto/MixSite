@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="260px" height="257px" viewBox="0 0 260 257" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 45.2 (43514) - http://www.bohemiancoding.com/sketch -->
+    <title>mix</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="130.498084 0 0 0 0 257 260 257 260 0"></polygon>
+    </defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="mix">
+            <mask id="mask-2" fill="white">
+                <use xlink:href="#path-1"></use>
+            </mask>
+            <g id="path-1"></g>
+            <path d="M0,139.75 L0,231.75 C0,245.337123 11.6402345,256.75 26,256.75 C40.3597655,256.75 52,245.337123 52,231.75 L52,91.75 C50.5038568,118.637761 27.7969762,139.989336 0,139.75" id="Fill-1" fill="#DE201D" fill-rule="nonzero" mask="url(#mask-2)"></path>
+            <path d="M0,0 L0,140 C27.7494704,139.935063 50.4175442,118.586525 52,92 L52,68 C51.9111304,67.1357462 51.9451666,66.4868788 52,66 C53.0082956,52.6764172 64.2001816,42.3025495 78,42 C92.2019199,42.3025495 103.822261,53.7138039 104,68 L104,168 C103.826265,181.590748 115.444604,193 130,193 C144.111048,193 155.729387,181.592751 156,168 L156,100 C155.735393,44.9621048 201.520017,0 258,0 L0,0" id="Fill-3" fill="#FF8126" fill-rule="nonzero" mask="url(#mask-2)"></path>
+            <path d="M260,-5.55111512e-16 L260,144 C260,157.598635 248.35999,169 234,169 C219.641013,169 207.998997,157.598635 208,144 L208,131 C207.998997,116.507298 196.358987,105.105932 182,105 C167.642016,105.105932 156,116.507298 156,131 L156,99 C156,48.721685 194.220487,6.90488732 243.585015,-2.50304286e-06 L260,-5.55111512e-16 Z" id="Combined-Shape" fill="#FFD51F" fill-rule="nonzero" mask="url(#mask-2)"></path>
+        </g>
+    </g>
+</svg>
